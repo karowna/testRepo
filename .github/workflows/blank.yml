@@ -35,3 +35,4 @@ jobs:
           echo Add other actions to build,
           echo test, and deploy your project.
           echo this is the current working directory: "$PWD"
+          echo this is a commit message: ${{ github.event.workflow_run.head_commit.message }}
